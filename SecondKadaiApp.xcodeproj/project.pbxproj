@@ -14,6 +14,7 @@
 		D108319A1DCF460C0002100E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D10831981DCF460C0002100E /* LaunchScreen.storyboard */; };
 		D10831A51DCF460D0002100E /* SecondKadaiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10831A41DCF460D0002100E /* SecondKadaiAppTests.swift */; };
 		D10831B01DCF460D0002100E /* SecondKadaiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10831AF1DCF460D0002100E /* SecondKadaiAppUITests.swift */; };
+		D10831C01DCF495C0002100E /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10831BF1DCF495C0002100E /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D10831AB1DCF460D0002100E /* SecondKadaiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondKadaiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D10831AF1DCF460D0002100E /* SecondKadaiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondKadaiAppUITests.swift; sourceTree = "<group>"; };
 		D10831B11DCF460D0002100E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D10831BF1DCF495C0002100E /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = ../ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		D108318E1DCF460C0002100E /* SecondKadaiApp */ = {
 			isa = PBXGroup;
 			children = (
+				D10831BF1DCF495C0002100E /* ResultViewController.swift */,
 				D108318F1DCF460C0002100E /* AppDelegate.swift */,
 				D10831911DCF460C0002100E /* ViewController.swift */,
 				D10831931DCF460C0002100E /* Main.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				D10831921DCF460C0002100E /* ViewController.swift in Sources */,
 				D10831901DCF460C0002100E /* AppDelegate.swift in Sources */,
+				D10831C01DCF495C0002100E /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
